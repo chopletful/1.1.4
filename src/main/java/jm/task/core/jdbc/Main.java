@@ -12,7 +12,7 @@ public class Main {
 
         UserService userService = new UserServiceImpl();
 
-        final User user1 = new User("Petya", "Petrov", (byte) 9);
+        User user1 = new User("Petya", "Petrov", (byte) 9);
         User user2 = new User("Pavlik", "Morozov", (byte) 12);
         User user3 = new User("Vasia", "Pupkin", (byte) 99);
         User user4 = new User("Alex", "Ivanov", (byte) 50);
